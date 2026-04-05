@@ -1,0 +1,29 @@
+site_name: My Wiki
+site_description: Personal knowledge base
+theme:
+  name: material
+  palette:
+    # Dark mode default, toggle to light
+    - scheme: slate
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: deep purple
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+extra:
+  generator: false  # removes "Made with MkDocs" footer
